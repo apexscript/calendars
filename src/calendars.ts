@@ -7,7 +7,7 @@
  *                This program is in the public domain.
  */
 
-import { amod, deltat, equationOfTime, equinox, jwday, mod } from "./astro";
+import { amod, deltat, equationOfTime, equinox, jwday, mod } from "./astro.js";
 import {
   FRENCH_REVOLUTIONARY_EPOCH,
   GREGORIAN_EPOCH,
@@ -16,7 +16,7 @@ import {
   MAYAN_COUNT_EPOCH,
   PERSIAN_EPOCH,
   TROPICAL_YEAR,
-} from "./constants";
+} from "./constants/index.js";
 
 /**
  * Return Julian date of given weekday (0 = Sunday)

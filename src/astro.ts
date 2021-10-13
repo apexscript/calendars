@@ -23,7 +23,7 @@ import {
   PI,
   PI2,
   SECONDS_PER_HOUR,
-} from "./constants";
+} from "./constants/index.js";
 
 /**
  * Arc-seconds to radians.
